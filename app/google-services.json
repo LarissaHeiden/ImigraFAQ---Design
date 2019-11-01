@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "1035690159089",
+    "firebase_url": "https://imigrafaq.firebaseio.com",
+    "project_id": "imigrafaq",
+    "storage_bucket": "imigrafaq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035690159089:android:3ae0165367ccf4d566b250",
+        "android_client_info": {
+          "package_name": "br.ifsc.edu.imigrafaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035690159089-q49uhug81238ag1ko01k9i88qbiduikj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLX0Pj0TLUz1WG5rPP7aY65cKDudRkPlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035690159089-q49uhug81238ag1ko01k9i88qbiduikj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035690159089:android:7738fe742be9f442",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035690159089-nmufao8ntlsf3q65fhvpcm8rotemij6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "bda97b1028970ae5d799e9aa8df2fb0044ce5c39"
+          }
+        },
+        {
+          "client_id": "1035690159089-25h4m9e09klr6ct53auned35hcl754ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "bec76724069a30dd491ec36d7ee0be808b79c941"
+          }
+        },
+        {
+          "client_id": "1035690159089-l08r9qta0h4fioo0jil5cik1p8543tia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "809a831c7477c760f619234c120159d8216470b5"
+          }
+        },
+        {
+          "client_id": "1035690159089-5uh0rqu0d333p4smmqr89g83pfupdcuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "755393890224ff28d63941ca3c21ff62072aae27"
+          }
+        },
+        {
+          "client_id": "1035690159089-q49uhug81238ag1ko01k9i88qbiduikj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLX0Pj0TLUz1WG5rPP7aY65cKDudRkPlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035690159089-q49uhug81238ag1ko01k9i88qbiduikj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035690159089:android:acc4095ddafa125d",
+        "android_client_info": {
+          "package_name": "imigra.faq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035690159089-q49uhug81238ag1ko01k9i88qbiduikj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLX0Pj0TLUz1WG5rPP7aY65cKDudRkPlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035690159089-q49uhug81238ag1ko01k9i88qbiduikj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

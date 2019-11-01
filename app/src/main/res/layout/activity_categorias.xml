@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_5"
+    tools:context=".Categorias">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tela_5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnEventos"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:text=" Notícias e eventos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnContatos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnEmpregos" />
+
+        <Button
+            android:id="@+id/btnCras"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="69dp"
+            android:text="CRAS"
+            app:layout_constraintBottom_toTopOf="@+id/btnContatos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnEmpregos"
+            app:layout_constraintTop_toBottomOf="@+id/btnEducacao" />
+
+        <Button
+            android:id="@+id/btnEducacao"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="76dp"
+            android:text="EDUCAÇÃO"
+            app:layout_constraintBottom_toTopOf="@+id/btnCras"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnSaude"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnContatos"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:text="CONTATOS E LOCALIZAÇÕES "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnEventos"
+            app:layout_constraintTop_toBottomOf="@+id/btnCras" />
+
+        <Button
+            android:id="@+id/btnEmpregos"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:layout_marginBottom="69dp"
+            android:text="EMPREGOS"
+            app:layout_constraintBottom_toTopOf="@+id/btnEventos"
+            app:layout_constraintEnd_toStartOf="@+id/btnCras"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSaude" />
+
+        <Button
+            android:id="@+id/btnSaude"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:layout_marginBottom="76dp"
+            android:text="SAÚDE"
+            app:layout_constraintBottom_toTopOf="@+id/btnEmpregos"
+            app:layout_constraintEnd_toStartOf="@+id/btnEducacao"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
